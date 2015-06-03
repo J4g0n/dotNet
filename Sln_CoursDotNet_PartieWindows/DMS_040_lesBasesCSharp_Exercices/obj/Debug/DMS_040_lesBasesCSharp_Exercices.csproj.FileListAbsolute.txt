@@ -1,0 +1,6 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_040_lesBasesCSharp_Exercices\bin\Debug\DMS_040_lesBasesCSharp_Exercices.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_040_lesBasesCSharp_Exercices\bin\Debug\DMS_040_lesBasesCSharp_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_040_lesBasesCSharp_Exercices\bin\Debug\DMS_040_lesBasesCSharp_Exercices.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_040_lesBasesCSharp_Exercices\obj\Debug\DMS_040_lesBasesCSharp_Exercices.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_040_lesBasesCSharp_Exercices\obj\Debug\DMS_040_lesBasesCSharp_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_040_lesBasesCSharp_Exercices\obj\Debug\DMS_040_lesBasesCSharp_Exercices.pdb
