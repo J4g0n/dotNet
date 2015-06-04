@@ -1,0 +1,8 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\bin\Debug\DMS_050_POO_Cours.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\bin\Debug\DMS_050_POO_Cours.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\bin\Debug\DMS_050_POO_Cours.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\obj\Debug\DMS_050_POO_Cours.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\obj\Debug\DMS_050_POO_Cours.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\obj\Debug\DMS_050_POO_Cours.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\bin\Debug\DMS_050_BiblioFormation.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Cours\bin\Debug\DMS_050_BiblioFormation.pdb

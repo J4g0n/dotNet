@@ -1,0 +1,8 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\bin\Debug\DMS_050_POO_Exercices.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\bin\Debug\DMS_050_POO_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\bin\Debug\DMS_050_POO_Exercices.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\bin\Debug\DMS_050_POO_Exercices_Animaux.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\bin\Debug\DMS_050_POO_Exercices_Animaux.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\obj\Debug\DMS_050_POO_Exercices.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\obj\Debug\DMS_050_POO_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices\obj\Debug\DMS_050_POO_Exercices.pdb

@@ -1,0 +1,5 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_BiblioFormation\bin\Debug\DMS_050_BiblioFormation.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_BiblioFormation\bin\Debug\DMS_050_BiblioFormation.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_BiblioFormation\obj\Debug\DMS_050_BiblioFormation.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_BiblioFormation\obj\Debug\DMS_050_BiblioFormation.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_BiblioFormation\obj\Debug\DMS_050_BiblioFormation.pdb

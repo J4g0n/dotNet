@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.SalarieHoraire">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAEIA=</HashCode>
+      <FileName>SalarieHoraire.cs</FileName>
+      <NewMemberFileName>SalarieMensuel.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.Salarie">
+    <Position X="2.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEgABBAAgeAAQsAAAASAACBCAAAgAAAKAAAKRAAAA=</HashCode>
+      <FileName>Salarie.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.ClasseUsesSalarie">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>ClasseUsesSalarie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.SalarieMensuel">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <InheritanceLine Type="DMS_050_POO__Exercices_CalculSalaireEntreprise.Salarie" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="2.5" Y="2.424" />
+        <Point X="2" Y="2.424" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAQAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>SalarieMensuel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.IPositionHierarchie">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IPositionHierarchie.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.CategoriePerso">
+    <Position X="7.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAEEAAAIIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CategoriePerso.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
