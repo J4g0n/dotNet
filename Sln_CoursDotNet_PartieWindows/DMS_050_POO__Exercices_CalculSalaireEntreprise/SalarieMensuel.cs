@@ -12,13 +12,37 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
 
         override public int Merite
         {
-            get { return base.Merite; }
+            get {
+                switch (Categorie) {
+                    case CategoriePerso.Cadre_Sup:
+                        FPrime = EvaluerPrimeCadreSup(); break;
+                    case CategoriePerso.Cadre:
+                        FPrime = EvaluerPrimeCadre(); break;
+                    case CategoriePerso.Maitrise:
+                        FPrime = EvaluerPrimeMaitrise(); break;
+                    case CategoriePerso.Agent:
+                        FPrime = EvaluePrimeAgent(); break;
+                    default: break;
+                }
+                return base.Merite; }
             set { 
                 base.FMerite = value;
+                switch (Categorie)
+                {
+                    case CategoriePerso.Cadre_Sup:
+                        FPrime = EvaluerPrimeCadreSup(); break;
+                    case CategoriePerso.Cadre:
+                        FPrime = EvaluerPrimeCadre(); break;
+                    case CategoriePerso.Maitrise:
+                        FPrime = EvaluerPrimeMaitrise(); break;
+                    case CategoriePerso.Agent:
+                        FPrime = EvaluePrimeAgent(); break;
+                    default: break;
+                }
             }
         }
 
-        public double MontantPaie
+        override public double MontantPaie
         {
             get { return (FRemunerationTotale + FPrime) / 12; }
         }

@@ -7,12 +7,16 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
 {
     public class ClasseUsesSalarie
     {
-        public void InfoSalarie()
+        static public void InfoSalarie(Salarie s)
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("Employe n°" + s.Identifiant + ": " + s.Nom + " / " + s.Prenom);
+            Console.WriteLine("n° SS : " + s.Insee);
+            Console.WriteLine("categorie: " + s.Categorie);
+            Console.WriteLine("indice hierarchique : " + s.Indice_Hierarchique + ", détenu depuis : " + s.IndiceDepuis);
+            Console.WriteLine("coeff merite: " + s.Merite);
         }
 
-        public void Main()
+        static public void Main()
         {
             Salarie anne = new SalarieMensuel(123456, "Galion", "Anne", CategoriePerso.Cadre_Sup, "2780258123456", 700, 0.5, 50000);
             anne.Merite = 6;
@@ -24,6 +28,19 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
             anne.Merite = 4;
 
             List<Salarie> salaries = new List<Salarie>() { anne, patrick, marie, beatrice };
+
+            foreach (Salarie s in salaries)
+            {
+                InfoSalarie(s);
+                while (s.Coeff_Prime < 1)
+                {
+                    Console.WriteLine("Coeff prime" + s.Coeff_Prime);
+                    Console.WriteLine("Prime mensuelle " + s.MontantPaie);
+                    s.Coeff_Prime += 0.1;
+                }
+            }
+
+            Console.ReadKey();
         }
     }
 }

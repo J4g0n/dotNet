@@ -8,13 +8,11 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
     public class SalarieHoraire : Salarie
     {
         private double FHeuresTravaillees;
-        private double FMerite;
         private double FTauxHoraire;
 
-        public double MontantPaie
+        override public double MontantPaie
         {
             get { return FTauxHoraire * FHeuresTravaillees + FMerite; }
-            set { FTauxHoraire = value; }
         }
 
         public double HeuresTravaillees

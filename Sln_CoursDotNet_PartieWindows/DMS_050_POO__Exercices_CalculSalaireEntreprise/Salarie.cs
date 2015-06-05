@@ -82,11 +82,7 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
 
         public abstract double MontantPaie
         {
-            get {
-                throw new System.NotImplementedException();
-            }
-            set { 
-            }
+            get;
         }
 
         public Salarie(int id, string nom, string prenom, CategoriePerso categoriePerso, string insee, int indice, double coeffPrime)

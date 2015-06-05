@@ -3,7 +3,7 @@
   <Class Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.SalarieHoraire">
     <Position X="5.25" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAIAAEIA=</HashCode>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAEIA=</HashCode>
       <FileName>SalarieHoraire.cs</FileName>
       <NewMemberFileName>SalarieMensuel.cs</NewMemberFileName>
     </TypeIdentifier>

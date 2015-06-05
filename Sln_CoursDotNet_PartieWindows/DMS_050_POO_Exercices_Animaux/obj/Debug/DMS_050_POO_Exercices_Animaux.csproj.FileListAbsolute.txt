@@ -2,3 +2,4 @@ C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices_
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices_Animaux\bin\Debug\DMS_050_POO_Exercices_Animaux.pdb
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices_Animaux\obj\Debug\DMS_050_POO_Exercices_Animaux.dll
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices_Animaux\obj\Debug\DMS_050_POO_Exercices_Animaux.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO_Exercices_Animaux\obj\Debug\DMS_050_POO_Exercices_Animaux.csprojResolveAssemblyReference.cache
