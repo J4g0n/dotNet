@@ -8,17 +8,25 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
     public class SalarieMensuel:Salarie
     {
         private double FRemunerationTotale;
+        private double FPrime;
+
+        override public int Merite
+        {
+            get { return base.Merite; }
+            set { 
+                base.FMerite = value;
+            }
+        }
 
         public double MontantPaie
         {
-            get { return FRemunerationTotale; }
-            set { FRemunerationTotale = value; }
+            get { return (FRemunerationTotale + FPrime) / 12; }
         }
-        private double FPrime;
 
-        public SalarieMensuel()
+        public SalarieMensuel(int id, string nom, string prenom, CategoriePerso categoriePerso, string insee, int indice, double coeffPrime, double remunerationTotale)
+            : base(id, nom, prenom, categoriePerso, insee, indice, coeffPrime)
         {
-            throw new System.NotImplementedException();
+            FRemunerationTotale = remunerationTotale;
         }
     }
 }

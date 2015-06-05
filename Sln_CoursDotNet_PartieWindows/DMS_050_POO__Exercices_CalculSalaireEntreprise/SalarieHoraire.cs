@@ -7,35 +7,24 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
 {
     public class SalarieHoraire : Salarie
     {
-        private int FHeuresTravaillees;
-        private int FMerite;
-        private int FTauxHoraire;
+        private double FHeuresTravaillees;
+        private double FMerite;
+        private double FTauxHoraire;
 
-        public SalarieHoraire()
+        public double MontantPaie
         {
-            throw new System.NotImplementedException();
+            get { return FTauxHoraire * FHeuresTravaillees + FMerite; }
+            set { FTauxHoraire = value; }
         }
 
-        public int HeuresTravaillees
+        public double HeuresTravaillees
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
+            get { return FHeuresTravaillees; }
+            set { FHeuresTravaillees = value; }
         }
 
-        public int MontantPaie
+        public SalarieHoraire(int id, string nom, string prenom, CategoriePerso categoriePerso, string insee, int indice, double coeffPrime): base(id, nom, prenom, categoriePerso, insee, indice, coeffPrime)
         {
-            get
-            {
-                throw new System.NotImplementedException();
-            }
-            set
-            {
-            }
         }
     }
 }

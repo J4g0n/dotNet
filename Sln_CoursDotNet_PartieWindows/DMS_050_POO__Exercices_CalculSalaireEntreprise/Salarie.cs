@@ -14,11 +14,11 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
         private int FIndice;
         private DateTime FIndiceDetenu;
         private string FInsee;
-        private int FMerite;
+        protected int FMerite;
         private string FNom;
         private string FPrenom;
 
-        public int Merite
+        public virtual int Merite
         {
             get { return FMerite; }
             set { FMerite = value; }
@@ -27,7 +27,10 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
         public int Indice_Hierarchique
         {
             get { return FIndice; }
-            set { FIndice = value; }
+            set { 
+                FIndice = value;
+                FIndiceDetenu = DateTime.Now;
+            }
         }
 
         public string Nom
@@ -74,11 +77,10 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
 
         public double Prime
         {
-            get { return FBasePrime; }
-            set { FBasePrime = value; }
+            get { return calculerPrimeDeBase(FCategorie); }
         }
 
-        public virtual double MontantPaie
+        public abstract double MontantPaie
         {
             get {
                 throw new System.NotImplementedException();
@@ -123,24 +125,24 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
             }
         }
 
-        protected void EvaluePrimeAgent()
+        protected double EvaluePrimeAgent()
         {
-            throw new System.NotImplementedException();
+            return (100 + FMerite * 2) * FCoeffPrime * FBasePrime + FIndice * 2;
         }
 
-        protected void EvaluerPrimeCadre()
+        protected double EvaluerPrimeCadre()
         {
-            throw new System.NotImplementedException();
+            return (100 + FMerite * 6) * FCoeffPrime * FBasePrime + FIndice * 5;
         }
 
-        protected void EvaluerPrimeCadreSup()
+        protected double EvaluerPrimeCadreSup()
         {
-            throw new System.NotImplementedException();
+            return (100 + FMerite * 8 ) * FCoeffPrime * FBasePrime + FIndice * 7;
         }
 
-        protected void EvaluerPrimeMaitrise()
+        protected double EvaluerPrimeMaitrise()
         {
-            throw new System.NotImplementedException();
+            return (100 + FMerite * 4) * FCoeffPrime * FBasePrime + FIndice * 3;
         }
     }
 }
