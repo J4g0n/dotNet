@@ -1,1 +1,2 @@
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO__Exercices_CalculSalaireEntreprise\bin\Debug\DMS_050_POO__Exercices_CalculSalaireEntreprise.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_050_POO__Exercices_CalculSalaireEntreprise\obj\Debug\DMS_050_POO__Exercices_CalculSalaireEntreprise.csprojResolveAssemblyReference.cache

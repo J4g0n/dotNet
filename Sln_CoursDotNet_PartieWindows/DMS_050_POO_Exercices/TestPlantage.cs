@@ -8,6 +8,11 @@ namespace DMS_050_POO_Exercices
 {
 
     // Ce programme génère une exception de type stack overflow
+    // le constructeur de MaClasse appel celui de SaClasse sans jamais terminer
+    // les appels sont empilés sur la pile d'exécution jusqu'a ce que celle-ci
+    // déborde
+    // solution possible: implémenter un test sur le compteur qui à une valeur 
+    // donnée (pas trop grande) permet de rompre la boucle et de terminer
     class TestPlantage
     {
         public static int compteur = 0;

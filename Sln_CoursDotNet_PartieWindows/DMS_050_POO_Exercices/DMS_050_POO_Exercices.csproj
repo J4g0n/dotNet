@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DMS_050_POO_Exercices.TestPlantage</StartupObject>
+    <StartupObject>DMS_050_POO_Exercices.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DMS_050_POO_Exercices_Animaux">
@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConversionsSystemeAngloSaxon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestPlantage.cs" />
