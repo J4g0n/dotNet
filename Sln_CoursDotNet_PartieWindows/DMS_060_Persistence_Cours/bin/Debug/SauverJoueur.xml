@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfJoueur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Joueur Nom="Messi" Prenom="Lionel" />
+  <Joueur Nom="Ronaldo" Prenom="Cristiano" />
+  <Joueur Nom="Pogba" Prenom="Paul" />
+  <Joueur Nom="Carlos" Prenom="Roberto" />
+  <Joueur Nom="Ibrahimovic" Prenom="Zlatan" />
+</ArrayOfJoueur>
