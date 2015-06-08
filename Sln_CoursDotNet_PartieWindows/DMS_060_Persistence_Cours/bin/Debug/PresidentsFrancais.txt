@@ -1,0 +1,7 @@
+﻿De Gaulle;Charles
+Pompidou;Georges
+Giscard D'Estaing;Valéry
+Mittérand;François
+Chirac;Jacques
+Sarkozy;Nicolas
+Hollande;François

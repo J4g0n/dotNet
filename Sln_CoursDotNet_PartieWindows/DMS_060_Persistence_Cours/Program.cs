@@ -33,23 +33,46 @@ namespace DMS_060_Persistence_Cours
             //Console.WriteLine("Joueur {0} {1}", joueurRecupere.Prenom, joueurRecupere.Nom);
             //reader.Close();
 
-            Joueurs desJoueurs = null;
+            //Joueurs desJoueurs = null;
 
-            if (File.Exists(filePath))
-            {
-                desJoueurs = Joueurs.recuperer();
-                foreach (Joueur jr in desJoueurs) Console.WriteLine("Joueur {0} {1}", jr.Prenom, jr.Nom);
-            }
-            else
-            {
-                desJoueurs = new Joueurs();
-                desJoueurs.Add(new Joueur() { Nom = "Messi", Prenom = "Lionel" });
-                desJoueurs.Add(new Joueur() { Nom = "Ronaldo", Prenom = "Cristiano" });
-                desJoueurs.Add(new Joueur() { Nom = "Pogba", Prenom = "Paul" });
-                desJoueurs.Add(new Joueur() { Nom = "Carlos", Prenom = "Roberto" });
-                desJoueurs.Add(new Joueur() { Nom = "Ibrahimovic", Prenom = "Zlatan" });
-                desJoueurs.sauver(filePath);
-            }
+            //if (File.Exists(filePath))
+            //{
+            //    desJoueurs = Joueurs.recuperer();
+            //    foreach (Joueur jr in desJoueurs) Console.WriteLine("Joueur {0} {1}", jr.Prenom, jr.Nom);
+            //}
+            //else
+            //{
+            //    desJoueurs = new Joueurs();
+            //    desJoueurs.Add(new Joueur() { Nom = "Messi", Prenom = "Lionel" });
+            //    desJoueurs.Add(new Joueur() { Nom = "Ronaldo", Prenom = "Cristiano" });
+            //    desJoueurs.Add(new Joueur() { Nom = "Pogba", Prenom = "Paul" });
+            //    desJoueurs.Add(new Joueur() { Nom = "Carlos", Prenom = "Roberto" });
+            //    desJoueurs.Add(new Joueur() { Nom = "Ibrahimovic", Prenom = "Zlatan" });
+            //    desJoueurs.sauver(filePath);
+            //}
+
+            //int nbrePresidents = 0;
+            //string ligneLue;
+
+            //StreamReader lecteur = new StreamReader(@"PresidentsFrancais.txt");
+            //while((ligneLue = lecteur.ReadLine()) != null) {
+            //    string[] infoPresidents = ligneLue.Split(new char[] { ';' });
+            //    Console.WriteLine("President {0} {1}", infoPresidents[0], infoPresidents[1]);
+            //    nbrePresidents++;
+            //}
+            //Console.WriteLine("{0} présidents affichés", nbrePresidents);
+
+
+            //StreamWriter writer = new StreamWriter(@"Celebrities.txt");
+            //writer.WriteLine("Michael;Jackson");
+            //writer.Close();
+
+
+            /* 5) Persistence de données
+             * Accès aux BDR via ADO.Net
+             */
+
+
 
             Console.ReadKey();
         }
