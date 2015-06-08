@@ -11,7 +11,7 @@
   <Class Name="DMS_050_POO__Exercices_CalculSalaireEntreprise.Salarie">
     <Position X="2.5" Y="0.75" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAEgABBAAgeAAQsAAAASAACBCAAAgAAAKAAAKRAAAA=</HashCode>
+      <HashCode>AAAEgABBAAgeAAQoAAAASAACBCAAAgAAAaAAAKRAAAA=</HashCode>
       <FileName>Salarie.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />

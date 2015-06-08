@@ -77,7 +77,16 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
 
         public double Prime
         {
-            get { return calculerPrimeDeBase(FCategorie); }
+            get {
+                switch (FCategorie)
+                {
+                    case CategoriePerso.Cadre_Sup: return EvaluerPrimeCadreSup();
+                    case CategoriePerso.Cadre: return EvaluerPrimeCadre();
+                    case CategoriePerso.Maitrise: return EvaluerPrimeMaitrise();
+                    case CategoriePerso.Agent: return EvaluerPrimeAgent();
+                    default: throw new InvalidCastException(FCategorie + " is not a defined value for enum type ");
+                }
+            }
         }
 
         public abstract double MontantPaie
@@ -121,7 +130,7 @@ namespace DMS_050_POO__Exercices_CalculSalaireEntreprise
             }
         }
 
-        protected double EvaluePrimeAgent()
+        protected double EvaluerPrimeAgent()
         {
             return (100 + FMerite * 2) * FCoeffPrime * FBasePrime + FIndice * 2;
         }
