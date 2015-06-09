@@ -42,8 +42,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Exo010.cs" />
+    <Compile Include="Exo020.cs" />
+    <Compile Include="Exo030.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReadWriteFromFile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
