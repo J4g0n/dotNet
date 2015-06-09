@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.SqlClient;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -72,7 +74,59 @@ namespace DMS_060_Persistence_Cours
              * Accès aux BDR via ADO.Net
              */
 
+            //string demandeListeClients = "Select * from Customers;";
+            //SqlConnection maConnexion = new SqlConnection();
+            //SqlCommand monInstructionSQL;
+            //SqlDataReader donneesRenvoyeesParBD;
 
+            //maConnexion.ConnectionString = ParametresBD.ChaineConnexionNorthwind;
+            //maConnexion.Open();
+
+            //if (maConnexion.State == ConnectionState.Open)
+            //{
+            //    Console.WriteLine("Ca marche!!");
+            //    monInstructionSQL = new SqlCommand(demandeListeClients, maConnexion);
+            //    donneesRenvoyeesParBD = monInstructionSQL.ExecuteReader();
+            //    while (donneesRenvoyeesParBD.Read())
+            //    {
+            //        Console.WriteLine(donneesRenvoyeesParBD.GetString(0));
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Echec de connexion à la base de donnée");
+            //}
+
+            /*
+             *  
+             */
+
+            SqlConnection maConnexion = new SqlConnection();
+            SqlCommand monInstructionSQL;
+            maConnexion.ConnectionString = ParametresBD.ChaineConnexionNorthwind;
+
+            string codeClient = "DUPON";
+            string nmClient = "Dupont";
+            string requete =
+                "insert into Customers (" +
+                    "CustomerID," +
+                    "CompanyName" +
+                ") values (" +
+                    "'" + codeClient + "'," +
+                    "'" + nmClient + "'" +
+                ");";
+
+            try
+            {
+                maConnexion.Open();
+
+                monInstructionSQL = new SqlCommand(requete, maConnexion);
+                monInstructionSQL.ExecuteNonQuery();
+            }
+            catch (SqlException e)
+            {
+                Console.WriteLine("Problème lors de la base de donnée à échouée: " + e.Message);
+            }
 
             Console.ReadKey();
         }
