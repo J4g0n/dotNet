@@ -1,0 +1,6 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_060_Persistence_Exercices\bin\Debug\DMS_060_Persistence_Exercices.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_060_Persistence_Exercices\bin\Debug\DMS_060_Persistence_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_060_Persistence_Exercices\bin\Debug\DMS_060_Persistence_Exercices.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_060_Persistence_Exercices\obj\Debug\DMS_060_Persistence_Exercices.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_060_Persistence_Exercices\obj\Debug\DMS_060_Persistence_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_060_Persistence_Exercices\obj\Debug\DMS_060_Persistence_Exercices.pdb
