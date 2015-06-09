@@ -12,7 +12,8 @@ namespace DMS_060_Persistence_Exercices
         {
             //Exo_010();
             //Exo_020();
-            Exo_030();
+            //Exo_030();
+            Exo_040();
 
             Console.ReadKey();
         }
@@ -32,6 +33,13 @@ namespace DMS_060_Persistence_Exercices
         static void Exo_030()
         {
             Exo030.main();
+        }
+
+        static void Exo_040()
+        {
+            Exo040.testReadDB();
+            Exo040.testWriteDB();
+            Exo040.testReadDB();
         }
     }
 }
