@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -64,6 +65,40 @@ namespace DMS_060_Persistence_Exercices
             }
 
             return error;
+        }
+
+        public static List<T> ListObjects<T>()
+        {
+            Type type = typeof(T);
+            ConstructorInfo constructor = type.GetConstructor(Type.EmptyTypes);
+
+            SqlDataReader datas = ExecuterRequete("select * from " + type.Name + ";");
+            List<T> resultList = new List<T>();
+            while (datas.Read())
+            {
+                T instance = (T)Activator.CreateInstance(type);
+                for (int i = 0; i < datas.FieldCount; i++)
+                {
+                    PropertyInfo prop = instance.GetType().GetProperty(datas.GetName(i), BindingFlags.Public | BindingFlags.Instance);
+                    Console.WriteLine(prop.Name);
+                    if (null != prop && prop.CanWrite)
+                    {
+                        string value = "";
+                        Console.WriteLine(datas.GetFieldType(i).Name);
+                        switch (datas.GetFieldType(i).Name)
+                        {
+                            case "Int32": value = (string)datas.GetInt32(i).ToString(); break;
+                            case "String": value = datas.GetString(i); break;
+                            default: break;
+                        }
+                        
+                        prop.SetValue(instance, value, null);
+                    }
+                }
+                resultList.Add(instance);
+            }
+
+            return resultList;
         }
     }
 }

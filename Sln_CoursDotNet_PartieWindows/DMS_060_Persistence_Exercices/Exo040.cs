@@ -42,5 +42,33 @@ namespace DMS_060_Persistence_Exercices
                 Console.WriteLine("La requete s'est bien déroulé, " + retour + " lignes modifiées!");
             }
         }
+
+        static public void testGenericSerializationFromDB()
+        {
+            List<EmployeeTerritories> empTerr = ParametresBD.ListObjects<EmployeeTerritories>();
+
+            foreach (EmployeeTerritories et in empTerr)
+            {
+                Console.WriteLine(et.EmployeeID + " and " + et.TerritoryID);
+            }
+        }
+    }
+
+    public class EmployeeTerritories
+    {
+        private string employeeID;
+        private string territoryID;
+
+        public string EmployeeID
+        {
+            get;
+            set;
+        }
+
+        public string TerritoryID
+        {
+            get;
+            set;
+        }
     }
 }
