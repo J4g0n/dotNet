@@ -13,8 +13,28 @@ namespace DMS_060_Persistence_Exercices
 
         static public void main()
         {
-            string [] directoriesNames = Directory.GetDirectories(rootPath);
-            foreach (String s in directoriesNames) Console.WriteLine(s);
+            Console.WriteLine(rootPath);
+            printFoldersRecursively(rootPath, 1);
+        }
+
+        static public void printFoldersRecursively(string path, int depth)
+        {
+            if (depth >= 5) return;
+
+            try
+            {
+                string[] directoriesNames = Directory.GetDirectories(path);
+                foreach (String s in directoriesNames)
+                {
+                    for (int i = 0; i < depth; i++) Console.Write("\t");
+                    Console.WriteLine(s.Replace(path, ""));
+                    printFoldersRecursively(s, depth + 1);
+                }
+            }
+            catch (System.UnauthorizedAccessException e)
+            {
+                Console.WriteLine("We can't print what is inside this document, it seems that you have no right on it or you may need an authentication: " + e.Message);
+            }
         }
     }
 }
