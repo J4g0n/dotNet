@@ -45,6 +45,7 @@
     <Compile Include="Exo020.cs" />
     <Compile Include="Exo030.cs" />
     <Compile Include="Exo040.cs" />
+    <Compile Include="Exo050.cs" />
     <Compile Include="ParametresBD.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
