@@ -80,11 +80,9 @@ namespace DMS_060_Persistence_Exercices
                 for (int i = 0; i < datas.FieldCount; i++)
                 {
                     PropertyInfo prop = instance.GetType().GetProperty(datas.GetName(i), BindingFlags.Public | BindingFlags.Instance);
-                    Console.WriteLine(prop.Name);
                     if (null != prop && prop.CanWrite)
                     {
                         string value = "";
-                        Console.WriteLine(datas.GetFieldType(i).Name);
                         switch (datas.GetFieldType(i).Name)
                         {
                             case "Int32": value = (string)datas.GetInt32(i).ToString(); break;
