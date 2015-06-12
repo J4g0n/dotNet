@@ -1,0 +1,11 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\Debug\DMS_070_Exercices.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\Debug\DMS_070_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\Debug\DMS_070_Exercices.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo010.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Properties.Resources.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.csproj.GenerateResource.Cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo020.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo030.resources
