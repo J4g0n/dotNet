@@ -8,15 +8,15 @@ namespace DMS_070_WinForms_Cours
 {
     static class Program
     {
-        /// <summary>
-        /// Point d'entrée principal de l'application.
-        /// </summary>
+        public static readonly string nomServeur = "S24POSTE09";
+        public static readonly string nomBase = "northwind";
+        
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Win_060_ComposantsStandards());
+            Application.Run(new Win_070_AccesBD_Grille());
         }
     }
 }

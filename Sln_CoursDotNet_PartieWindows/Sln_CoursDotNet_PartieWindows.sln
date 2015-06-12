@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMS_060_Persistence_Exercic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DMS_070_WinForms_Cours", "DMS_070_WinForms_Cours\DMS_070_WinForms_Cours.csproj", "{7BFD5C95-FE9B-4453-92FC-E7FE035A3AF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiblioAccesBD", "BiblioAccesBD\BiblioAccesBD.csproj", "{4A67EFFF-9576-4ED4-9D07-F3692746F0FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesBiblioTest", "AccesBiblioTest\AccesBiblioTest.csproj", "{00154397-6E86-4FA5-AFF9-439AED6034DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{7BFD5C95-FE9B-4453-92FC-E7FE035A3AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BFD5C95-FE9B-4453-92FC-E7FE035A3AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BFD5C95-FE9B-4453-92FC-E7FE035A3AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A67EFFF-9576-4ED4-9D07-F3692746F0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A67EFFF-9576-4ED4-9D07-F3692746F0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A67EFFF-9576-4ED4-9D07-F3692746F0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A67EFFF-9576-4ED4-9D07-F3692746F0FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00154397-6E86-4FA5-AFF9-439AED6034DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00154397-6E86-4FA5-AFF9-439AED6034DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00154397-6E86-4FA5-AFF9-439AED6034DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00154397-6E86-4FA5-AFF9-439AED6034DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

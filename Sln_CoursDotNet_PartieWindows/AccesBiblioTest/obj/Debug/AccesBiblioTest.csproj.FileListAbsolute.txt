@@ -1,0 +1,8 @@
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\bin\Debug\AccesBiblioTest.exe.config
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\bin\Debug\AccesBiblioTest.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\bin\Debug\AccesBiblioTest.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\bin\Debug\BiblioAccesBD.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\bin\Debug\BiblioAccesBD.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\obj\Debug\AccesBiblioTest.csprojResolveAssemblyReference.cache
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\obj\Debug\AccesBiblioTest.exe
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\AccesBiblioTest\obj\Debug\AccesBiblioTest.pdb

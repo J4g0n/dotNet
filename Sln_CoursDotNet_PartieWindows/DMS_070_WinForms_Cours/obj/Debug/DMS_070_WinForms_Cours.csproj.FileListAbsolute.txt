@@ -11,3 +11,7 @@ C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\obj\Debug\DMS_070_WinForms_Cours.Win_030_Menus.resources
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\obj\Debug\DMS_070_WinForms_Cours.Win_040_AutresBoitesDialogue.resources
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\obj\Debug\DMS_070_WinForms_Cours.Win_060_ComposantsStandards.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\bin\Debug\BiblioAccesBD.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\bin\Debug\BiblioAccesBD.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\obj\Debug\DMS_070_WinForms_Cours.Win_070_AccesBD_Fiches.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_WinForms_Cours\obj\Debug\DMS_070_WinForms_Cours.Win_070_AccesBD_Grille.resources
