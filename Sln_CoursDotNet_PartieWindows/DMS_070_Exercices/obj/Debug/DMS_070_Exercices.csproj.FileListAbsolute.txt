@@ -9,3 +9,9 @@ C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.pdb
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo020.resources
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo030.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo040.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo050.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\Debug\BiblioAccesBD.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo060.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo070.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\Debug\BiblioAccesBD.dll

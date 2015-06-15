@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BiblioAccesBD">
+      <HintPath>..\BiblioAccesBD\bin\Debug\BiblioAccesBD.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -62,6 +68,30 @@
     <Compile Include="Exo030.Designer.cs">
       <DependentUpon>Exo030.cs</DependentUpon>
     </Compile>
+    <Compile Include="Exo040.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exo040.Designer.cs">
+      <DependentUpon>Exo040.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exo050.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exo050.Designer.cs">
+      <DependentUpon>Exo050.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exo060.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exo060.Designer.cs">
+      <DependentUpon>Exo060.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exo070.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exo070.Designer.cs">
+      <DependentUpon>Exo070.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Exo010.resx">
@@ -72,6 +102,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Exo030.resx">
       <DependentUpon>Exo030.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exo040.resx">
+      <DependentUpon>Exo040.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exo050.resx">
+      <DependentUpon>Exo050.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exo060.resx">
+      <DependentUpon>Exo060.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exo070.resx">
+      <DependentUpon>Exo070.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -91,9 +133,88 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="ressources\GestionDesNotes.xlsx" />
+    <None Include="ressources\photos\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ressources\photos\femme002.gif" />
+    <Content Include="ressources\photos\femme003.gif" />
+    <Content Include="ressources\photos\femme004.gif" />
+    <Content Include="ressources\photos\femme005.gif" />
+    <Content Include="ressources\photos\femme006.gif" />
+    <Content Include="ressources\photos\femme007.gif" />
+    <Content Include="ressources\photos\femme008.gif" />
+    <Content Include="ressources\photos\femme009.gif" />
+    <Content Include="ressources\photos\femme010.gif" />
+    <Content Include="ressources\photos\femme011.gif" />
+    <Content Include="ressources\photos\femme012.gif" />
+    <Content Include="ressources\photos\femme013.gif" />
+    <Content Include="ressources\photos\femme015.gif" />
+    <Content Include="ressources\photos\femme016.gif" />
+    <Content Include="ressources\photos\femme017.gif" />
+    <Content Include="ressources\photos\femme018.gif" />
+    <Content Include="ressources\photos\femme019.gif" />
+    <Content Include="ressources\photos\femme020.gif" />
+    <Content Include="ressources\photos\femme022.gif" />
+    <Content Include="ressources\photos\femme023.gif" />
+    <Content Include="ressources\photos\femme024.gif" />
+    <Content Include="ressources\photos\femme025.gif" />
+    <Content Include="ressources\photos\femme026.gif" />
+    <Content Include="ressources\photos\femme027.gif" />
+    <Content Include="ressources\photos\femme028.gif" />
+    <Content Include="ressources\photos\femme029.gif" />
+    <Content Include="ressources\photos\femme030.gif" />
+    <Content Include="ressources\photos\femme033.gif" />
+    <Content Include="ressources\photos\femme035.gif" />
+    <Content Include="ressources\photos\femme037.gif" />
+    <Content Include="ressources\photos\femme038.gif" />
+    <Content Include="ressources\photos\femme039.gif" />
+    <Content Include="ressources\photos\femme040.gif" />
+    <Content Include="ressources\photos\femme041.gif" />
+    <Content Include="ressources\photos\femme042.gif" />
+    <Content Include="ressources\photos\femme043.gif" />
+    <Content Include="ressources\photos\femme044.gif" />
+    <Content Include="ressources\photos\femme045.gif" />
+    <Content Include="ressources\photos\femme046.gif" />
+    <Content Include="ressources\photos\femme047.gif" />
+    <Content Include="ressources\photos\femme048.gif" />
+    <Content Include="ressources\photos\femme050.gif" />
+    <Content Include="ressources\photos\femme051.gif" />
+    <Content Include="ressources\photos\femme052.gif" />
+    <Content Include="ressources\photos\femme054.gif" />
+    <Content Include="ressources\photos\femme055.gif" />
+    <Content Include="ressources\photos\femme056.gif" />
+    <Content Include="ressources\photos\femme057.gif" />
+    <Content Include="ressources\photos\homme001.gif" />
+    <Content Include="ressources\photos\homme002.gif" />
+    <Content Include="ressources\photos\homme003.gif" />
+    <Content Include="ressources\photos\homme006.gif" />
+    <Content Include="ressources\photos\homme008.gif" />
+    <Content Include="ressources\photos\homme009.gif" />
+    <Content Include="ressources\photos\homme010.gif" />
+    <Content Include="ressources\photos\homme011.gif" />
+    <Content Include="ressources\photos\homme012.gif" />
+    <Content Include="ressources\photos\homme014.gif" />
+    <Content Include="ressources\photos\homme015.gif" />
+    <Content Include="ressources\photos\homme016.gif" />
+    <Content Include="ressources\photos\homme017.gif" />
+    <Content Include="ressources\photos\homme018.gif" />
+    <Content Include="ressources\photos\homme019.gif" />
+    <Content Include="ressources\photos\homme020.gif" />
+    <Content Include="ressources\photos\homme021.gif" />
+    <Content Include="ressources\photos\homme022.gif" />
+    <Content Include="ressources\photos\homme023.gif" />
+    <Content Include="ressources\photos\homme024.gif" />
+    <Content Include="ressources\photos\homme025.gif" />
+    <Content Include="ressources\photos\homme026.gif" />
+    <Content Include="ressources\photos\homme027.gif" />
+    <Content Include="ressources\photos\homme028.gif" />
+    <Content Include="ressources\photos\homme029.gif" />
+    <Content Include="ressources\photos\homme030.gif" />
+    <Content Include="ressources\photos\homme031.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

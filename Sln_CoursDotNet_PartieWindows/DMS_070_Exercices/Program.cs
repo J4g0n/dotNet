@@ -16,7 +16,7 @@ namespace DMS_070_Exercices
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Exo030());
+            Application.Run(new Exo070());
         }
     }
 }

@@ -13,6 +13,7 @@ namespace BiblioAccesBD
     {
         private string nomBD;
         private string nomServeur;
+        private SqlDataAdapter sqlDataAdapter;
         private static string chaineConnexion;
 
         public string NomServeur
@@ -75,6 +76,25 @@ namespace BiblioAccesBD
 
             return error;
         }
+
+        public DataSet ExecuterRequete(string requete, DataSet dataSet, string tableName)
+        {
+            SqlConnection maConnexion = new SqlConnection();
+            maConnexion.ConnectionString = ChaineConnexion;
+
+            sqlDataAdapter = new SqlDataAdapter(requete, maConnexion);
+            sqlDataAdapter.Fill(dataSet, tableName);
+
+            return dataSet;
+        }
+
+        public DataSet MajBD(DataSet dataSet)
+        {
+            sqlDataAdapter.Update(dataSet, "Customers");
+
+            return dataSet;
+        }
+
 
         public List<T> ListObjects<T>()
         {
