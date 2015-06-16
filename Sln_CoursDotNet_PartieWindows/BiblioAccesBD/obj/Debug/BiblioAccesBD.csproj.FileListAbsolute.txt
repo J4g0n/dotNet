@@ -2,3 +2,4 @@ C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\BiblioAccesBD\bin\Debu
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\BiblioAccesBD\bin\Debug\BiblioAccesBD.pdb
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\BiblioAccesBD\obj\Debug\BiblioAccesBD.dll
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\BiblioAccesBD\obj\Debug\BiblioAccesBD.pdb
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\BiblioAccesBD\obj\Debug\BiblioAccesBD.csprojResolveAssemblyReference.cache

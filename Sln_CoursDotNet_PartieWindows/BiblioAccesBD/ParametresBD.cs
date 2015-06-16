@@ -6,11 +6,13 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using MySql.Data.MySqlClient;
 
 namespace BiblioAccesBD
 {
     public abstract class ParametresBD
     {
+        private string db = "SS";
         private string nomBD;
         private string nomServeur;
         private SqlDataAdapter sqlDataAdapter;
@@ -36,13 +38,15 @@ namespace BiblioAccesBD
 
         public SqlDataReader ExecuterRequete(string requete)
         {
-            SqlConnection maConnexion = new SqlConnection();
-            SqlCommand monInstructionSQL;
             SqlDataReader donneesRenvoyeesParBD = null;
 
-            maConnexion.ConnectionString = ChaineConnexion;
+            try
+            {
+                SqlConnection maConnexion = new SqlConnection();
+                SqlCommand monInstructionSQL;
+
+                maConnexion.ConnectionString = ChaineConnexion;
             
-            try {
                 maConnexion.Open();
                 monInstructionSQL = new SqlCommand(requete, maConnexion);
                 donneesRenvoyeesParBD = monInstructionSQL.ExecuteReader();
@@ -88,11 +92,9 @@ namespace BiblioAccesBD
             return dataSet;
         }
 
-        public DataSet MajBD(DataSet dataSet)
+        public void MajBD(DataTable dataTable)
         {
-            sqlDataAdapter.Update(dataSet, "Customers");
-
-            return dataSet;
+            sqlDataAdapter.Update(dataTable);
         }
 
 

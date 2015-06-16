@@ -15,3 +15,5 @@ C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo060.resources
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo070.resources
 C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\bin\Debug\BiblioAccesBD.dll
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo080.resources
+C:\Users\ipi\Desktop\dotNet\Sln_CoursDotNet_PartieWindows\DMS_070_Exercices\obj\Debug\DMS_070_Exercices.Exo090.resources
